@@ -19,15 +19,18 @@ body{
     height: 20%;
 }
 .botoes{
-    height: auto;
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
     
 }
-.w25{
+.botaoTamanho{
     width: 25%;
     height: 25%;
     text-align: center;
-
-    
+    padding: 18px 0;
+    border-radius: 10px;
+}
+.botaoTamanho:hover{
+    background-color: #f77d02;
 }
