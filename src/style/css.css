@@ -1,25 +1,31 @@
 body{
     font-family: 'Shippori Antique B1', sans-serif;
 }
+@media only screen and (min-width: 320px){
 .calculadora{
     background-color: #ffa64d;
-    width: 80vw;
+    width: 256px;
     height: 50vh;
     
     margin: auto;
     margin-top: 50px;
     border:2px solid black;
-    border-radius: 4px;
+    border-radius: 10px 10px 10px 10px;
 
     box-shadow: 10px 15px   #331a00;
 }
-.visor{
+#visor{
     background-color: #ffe6cc;
     width: 100%;
     height: 20%;
+    text-align: right;
+    padding-right: 1vw;
+    font-size: 35px;
+    border-bottom: 3px solid black;
+    border-radius: 10px 10px 10px 10px;
 }
-.botoes{
-    height: 80%;
+#botoes{
+    height: 81%;
     display: flex;
     flex-wrap: wrap;
     
@@ -29,9 +35,19 @@ body{
     height: 25%;
     text-align: center;
     padding: 18px 0;
-    border-radius: 10px;
+    cursor: pointer;
+    
 }
 .botaoTamanho:hover{
     background-color: #f77d02;
+
+
     
+}
+}
+@media only screen and (min-width: 720px){
+    .calculadora{
+        width: 30vw;
+        height: 50vh;
+    }
 }
