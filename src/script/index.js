@@ -1,11 +1,15 @@
 
-function adicionarNumero(numero){
-    // var pegando valor (atributo)
-    var numeracao = numero.getAttribute('data-num');
-    // alert ('the' + numero.innerHTML + 'is a' + numeracao + '.')
-    console.log(numeracao)
-    //var comunicando com o visor
-    var visor = document.querySelector('#visor');
-    visor.textContent= numeracao;
-    console.log(visor.innerHTML)
+
+
+function adicionarNumero(num){
+    // var pegando valor 
+    var numero = document.getElementById('visor').innerHTML;
+    document.getElementById('visor').innerHTML = '' + numero + num;
+    
+
+
+}
+function calculo(){
+    var resultado = document.getElementById('visor').innerHTML;
+    document.getElementById('visor').innerHTML = eval(resultado);
 }

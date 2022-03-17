@@ -30,25 +30,25 @@
     <div class="calculadora">
         <div id="visor">0</div>
         <div id="botoes">
-            <div onclick='adicionarNumero(this)' id='num7' class="botaoTamanho" data-num="7">7</div>
-            <div onclick='adicionarNumero(this)' id='num8' class="botaoTamanho" data-num="8">8</div>
-            <div onclick='adicionarNumero(this)' id='num9' class="botaoTamanho" data-num="9">9</div>
-            <div id='adicionar' class="botaoTamanho">+</div>
+            <div onclick='adicionarNumero(7)' id='num' class="botaoTamanho">7</div>
+            <div onclick='adicionarNumero(8)' id='num' class="botaoTamanho">8</div>
+            <div onclick='adicionarNumero(9)' id='num' class="botaoTamanho">9</div>
+            <div onclick='adicionarNumero("+")' id='num' class="botaoTamanho">+</div>
 
-            <div onclick='adicionarNumero(this)' id='num4' class="botaoTamanho" data-num="4">4</div>
-            <div onclick='adicionarNumero(this)' id='num5' class="botaoTamanho" data-num="5">5</div>
-            <div onclick='adicionarNumero(this)' id='num6' class="botaoTamanho" data-num="6">6</div>
-            <div id='subtrair' class="botaoTamanho">-</div>
+            <div onclick='adicionarNumero(4)' id='num' class="botaoTamanho">4</div>
+            <div onclick='adicionarNumero(5)' id='num' class="botaoTamanho">5</div>
+            <div onclick='adicionarNumero(6)' id='num' class="botaoTamanho">6</div>
+            <div onclick='adicionarNumero("-")' id='num' class="botaoTamanho">-</div>
 
-            <div onclick='adicionarNumero(this)' id='num1' class="botaoTamanho" data-num="1">1</div>
-            <div onclick='adicionarNumero(this)' id='num2' class="botaoTamanho" data-num="2">2</div>
-            <div onclick='adicionarNumero(this)' id='num3' class="botaoTamanho" data-num="3">3</div>
-            <div id='multiplicar' class="botaoTamanho">X</div>
+            <div onclick='adicionarNumero(1)' id='num' class="botaoTamanho">1</div>
+            <div onclick='adicionarNumero(2)' id='num' class="botaoTamanho">2</div>
+            <div onclick='adicionarNumero(3)' id='num' class="botaoTamanho">3</div>
+            <div onclick='adicionarNumero("*")' id='num' class="botaoTamanho">X</div>
 
-            <div onclick='adicionarNumero(this)' id='num0' class="botaoTamanho" data-num="0">0</div>
+            <div onclick='adicionarNumero(0)' id='num' class="botaoTamanho">0</div>
             <div id='limpar' class="botaoTamanho" onclick='location.reload()'>CE</div>
-            <div id='igual' class="botaoTamanho">=</div>
-            <div id='dividir' class="botaoTamanho">/</div>
+            <div onclick='calculo()' id='igual' class="botaoTamanho">=</div>
+            <div onclick='adicionarNumero("/")' id='num' class="botaoTamanho">/</div>
         </div>
         
     </div>
