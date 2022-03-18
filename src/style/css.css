@@ -24,6 +24,8 @@ body{
     border-bottom: 3px solid black;
     border-radius: 10px 10px 10px 10px;
     word-wrap: break-word;
+    overflow:hidden;
+
 }
 #botoes{
     height: 81%;
